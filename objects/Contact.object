@@ -327,6 +327,17 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>IQ__c</fullName>
+        <externalId>false</externalId>
+        <label>IQ</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
